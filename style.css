@@ -1,5 +1,4 @@
 /* General Styles */
-/* NEED TO COMMENT ON THIS MORE DON'T FORGET TO COMMENT ON THIS MORE THERE ISN'T ENOUGH! */
 body {
     font-family: 'Comfortaa', sans-serif;
     margin: 0;
@@ -106,8 +105,7 @@ footer {
 .service {
     width: 30%;
     margin: 10px;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .service img {
@@ -124,10 +122,12 @@ footer {
 .service p {
     color: #666666;
 }
+
 .service-text-background {
     background-color: white;
     padding: 10px; /* Adding some padding for better appearance */
 }
+
 .read-more {
     color: #0066cc;
     text-decoration: none;
@@ -149,4 +149,15 @@ footer {
     margin: 0;
     padding: 0;
     font-weight: bold; /* Adjust the weight as needed */
+}
+
+
+
+.service-text {
+    background-color: white;
+    padding: 10px; /* Padding around text */
+    margin: 10px 0; /* Space between text and image */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 5px; /* Slightly rounded corners for bevel effect */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
