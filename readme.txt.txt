@@ -1,0 +1,3 @@
+Page name: Tempe Animal Hospital Homepage
+
+Desc: This HTML template is designed for the homepage of the future Tempe Animal Hospital website. The page starts with a header that will have the on screen title which is the hospital name. I do have all of the content middle aligned currently. The naviagation bar sits under the title currently. It is also middle aligned. The main content are currently has placeholder text. The aside section is the same along with the footer section. The footer section will have more like and navigation around the website. The userinterface will be designed to be simple.

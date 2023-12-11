@@ -1,0 +1,148 @@
+/* General Styles */
+/* NEED TO COMMENT ON THIS MORE DON'T FORGET TO COMMENT ON THIS MORE THERE ISN'T ENOUGH! */
+body {
+    font-family: 'Comfortaa', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #b5e2e3;
+}
+
+/* Video Container */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+/* Logo */
+.header-logo {
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 250px;
+    z-index: 2;
+}
+
+/* Video */
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Title */
+.video-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5em;
+    z-index: 1;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/* Navigation Bar Background */
+nav {
+    background-color: #489eb7;
+    padding: 30px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    padding: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    font-weight: 500;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Aside Section (Sidebar) */
+aside {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Services Section */
+.services-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    background: #b5e2e3;
+}
+
+.service {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.service h3 {
+    color: #333333;
+    margin: 10px 0;
+}
+
+.service p {
+    color: #666666;
+}
+
+.read-more {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Trusted Care Section */
+.trusted-care-section {
+    background-image: url('sphynx.jpg'); /* Path to Sphynx cat image */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0; /* Adjust the padding as needed */
+    text-align: center;
+    color: #fff; /* White text, change if needed */
+}
+
+.trusted-care-section h2 {
+    font-size: 3rem; /* Adjust the size as needed */
+    margin: 0;
+    padding: 0;
+    font-weight: bold; /* Adjust the weight as needed */
+}
