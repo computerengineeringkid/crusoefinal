@@ -124,7 +124,10 @@ footer {
 .service p {
     color: #666666;
 }
-
+.service-text-background {
+    background-color: white;
+    padding: 10px; /* Adding some padding for better appearance */
+}
 .read-more {
     color: #0066cc;
     text-decoration: none;
