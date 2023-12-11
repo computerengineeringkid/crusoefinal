@@ -107,6 +107,7 @@ footer {
     width: 30%;
     margin: 10px;
     text-align: center;
+    
 }
 
 .service img {
@@ -135,7 +136,7 @@ footer {
     background-image: url('sphynx.jpg'); /* Path to Sphynx cat image */
     background-size: cover;
     background-position: center;
-    padding: 100px 0; /* Adjust the padding as needed */
+    padding: 200px 0; /* Adjust the padding as needed */
     text-align: center;
     color: #fff; /* White text, change if needed */
 }
