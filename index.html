@@ -1,94 +1,90 @@
 <!DOCTYPE html>
-<!--Initialize-->
+
 <html lang="en">
-
 <head>
-    <!--The font that I chose. Comfortaa.-->
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <!--Main title-->
-    <title>Tempe Animal Hospital</title>
-    <!--CSS LINK WILL GO HERE-->
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="style.css" rel="stylesheet"/>
+<title>Tempe Animal Hospital</title>
 </head>
-
 <body>
-    <!--Website NAV-->
-    <header>
-        <div class="video-container">
-            <!-- Logo will go here -->
-            <img src="Tempe_animal_hospital_logo-removebg-preview.png" alt="Tempe Animal Hospital Logo" class="header-logo">
-            <!-- Video -->
-            <video autoplay loop muted playsinline style="width: 100%;">
-                <source src="mixkit-smiling-dog-1552-4k.mp4" type="video/mp4">
+<header>
+<div class="video-container">
+<img alt="Tempe Animal Hospital Logo" class="header-logo" src="Tempe_animal_hospital_logo-removebg-preview.png"/>
+<video autoplay="" loop="" muted="" playsinline="" style="width: 100%;">
+<source src="mixkit-smiling-dog-1552-4k.mp4" type="video/mp4"/>
                 Your browser does not support the video tag.
             </video>
-            <!--On screen title-->
-            <h1 class="video-title">Tempe Animal Hospital</h1>
-        </div>
-    </header>
+<h1 class="video-title">Tempe Animal Hospital</h1>
+</div>
+</header>
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li>
+<a href="#about-us">About Us</a>
+<div class="dropdown-menu">
+<a href="#doctors">Doctors</a>
+<!-- Additional dropdown links can be added here -->
+</div>
+</li>
+<li><a href="#services">Services</a></li>
+<li><a href="#our-team">Our Team</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#testimonials">Testimonials/Reviews</a></li>
+</ul>
+</nav>
+<section class="services-section">
+<div class="service">
+<img alt="Boarding" src="pexels-krysten-merriman-20787.jpg"/>
+<div class="service-text">
+<h3>Boarding</h3>
+<p>If you are concerned about leaving your pet, please don't hesitate to set up a time to visit our hospital and look around our boarding facility.</p>
+</div>
+<a class="read-more" href="#">Read More ›</a>
+</div>
+<div class="service">
+<img alt="Vaccines" src="pexels-anna-shvets-4588047.jpg"/>
+<div class="service-text">
+<h3>Vaccines</h3>
+<p>There are a variety of diseases which affect our pets and other animals, so proper vaccination is vital to protecting them from many types of illnesses.</p>
+</div>
+<a class="read-more" href="#">Read More ›</a>
+</div>
+<div class="service">
+<img alt="Diagnostic Imaging" src="pexels-gilberto-reyes-825949.jpg"/>
+<div class="service-text">
+<h3>Diagnostic Imaging</h3>
+<p>At Tempe Animal Hospital in Tempe, AZ, we are proud to be on the cutting edge of medical technology.</p>
+</div>
+<a class="read-more" href="#">Read More ›</a>
+</div>
+<!-- Additional service items as needed -->
+</section>
+<section class="trusted-care-section">
+<h2>TRUSTED CARE FOR YOUR PETS AND YOU</h2>
+</section>
+<footer class="footer">
+<div class="footer-section">
+<h3>Appointments</h3>
+<p>We will do our best to accommodate your busy schedule. Request an appointment today!</p>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <ul style="list-style: none; display: flex; justify-content: center; padding: 0;">
-            <li style="margin-right: 20px;"><a href="#home">Home</a></li>
-            <li style="margin-right: 20px;"><a href="#about-us">About Us</a></li>
-            <li style="margin-right: 20px;"><a href="#services">Services</a></li>
-            <li style="margin-right: 20px;"><a href="#our-team">Our Team</a></li>
-            <li style="margin-right: 20px;"><a href="#gallery">Gallery</a></li>
-            <li><a href="#testimonials">Testimonials/Reviews</a></li>
-        </ul>
-    </nav>
-
-    <!-- Services Section -->
-    <section class="services-section">
-        <div class="service">
-            <img src="pexels-krysten-merriman-20787.jpg" alt="Boarding">
-            <div class="service-text">
-                <h3>Boarding</h3>
-                <p>If you are concerned about leaving your pet, please don't hesitate to set up a time to visit our hospital and look around our boarding facility.</p>
-            </div>
-            <a href="#" class="read-more">Read More ›</a>
-        </div>
-
-        <div class="service">
-            <img src="pexels-anna-shvets-4588047.jpg" alt="Vaccines">
-            <div class="service-text">
-                <h3>Vaccines</h3>
-                <p>There are a variety of diseases which affect our pets and other animals, so proper vaccination is vital to protecting them from many types of illnesses.</p>
-            </div>
-            <a href="#" class="read-more">Read More ›</a>
-        </div>
-
-        <div class="service">
-            <img src="pexels-gilberto-reyes-825949.jpg" alt="Diagnostic Imaging">
-            <div class="service-text">
-                <h3>Diagnostic Imaging</h3>
-                <p>At Tempe Animal Hospital in Tempe, AZ, we are proud to be on the cutting edge of medical technology.</p>
-            </div>
-            <a href="#" class="read-more">Read More ›</a>
-        </div>
-    </section>
-
-    <!-- Trusted Care Section -->
-    <section class="trusted-care-section">
-        <h2>TRUSTED CARE FOR YOUR PETS AND YOU</h2>
-    </section>
-
-    <!-- Sidebar -->
-    <aside>
-        <!-- here I think I will have icons of our social media. I don't know yet. -->
-        <p>filler</p>
-    </aside>
-
-    <!-- Footer with all of the navigation stuff -->
-    <footer>
-        <!-- Footer content -->
-        <p>filler</p>
-    </footer>
-
-    <!-- Javascript and or python will go here if I need any -->
+</div>
+<div class="footer-divider"></div>
+<div class="footer-section">
+<h3>Office Hours</h3>
+<p>Monday – Friday: 6:00AM – 7:00PM</p>
+<p>Saturday: 6:00AM – 4:00PM</p>
+<p>Sunday: 7:00AM – 4:00PM</p>
+</div>
+<div class="footer-divider"></div>
+<div class="footer-section">
+<h3>Contact Us</h3>
+<p>1234 Tempe Ave</p>
+<p>Tempe, Arizona</p>
+<p>Phone: (123) 456-7890</p>
+</div>
+</footer>
 </body>
-
 </html>

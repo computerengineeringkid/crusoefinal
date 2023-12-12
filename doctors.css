@@ -1,0 +1,61 @@
+/* Adding some basic reset to remove any browser-specific paddings/margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the header with the user's specifications */
+header {
+    font-family: 'Comfortaa', sans-serif; /* Applying the Comfortaa font */
+    background-color: #1a1a1a; /* Keeping the background color as per the screenshot */
+    color: white;
+    padding: 10px 20px; /* Adding some padding for aesthetic spacing */
+    display: flex;
+    justify-content: space-between; /* Aligning items on both ends */
+    align-items: center; /* Centering items vertically */
+}
+
+/* Styling the navigation menu */
+nav {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px; /* Spacing out the nav items */
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #cccccc; /* A light hover effect for the nav items */
+}
+
+/* Ensuring the contact info is easily readable */
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info div {
+    margin-right: 20px; /* Spacing out contact info items */
+}
+
+/* Adding a subtle hover effect to the phone number and address for interactivity */
+.contact-info div:hover {
+    color: #cccccc;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info {
+        margin-bottom: 10px; /* Add space between contact info and logo on smaller screens */
+    }
+}
