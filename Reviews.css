@@ -91,101 +91,89 @@ nav li:hover .dropdown-menu {
     border-radius: 5px;
 }
 
-/* Styles for doctor images, names, and bios */
-.doctor-container {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-family: 'Comfortaa', sans-serif;
-    margin-left: 20px;
-}
-
-.doctor-profile {
-    display: flex;
-    margin-bottom: 20px;
-    /* Space between each doctor profile */
-}
-
-.doctor-image {
-    border: 2px solid #ffffff;
-    box-shadow: 5px 5px 5px #bbbbbb;
-    width: 150px;
-    /* Adjusted image width */
-    margin-right: 10px;
-    /* Space between image and info */
-}
-
-.doctor-info {
-    display: flex;
-    flex-direction: column;
-}
-
-.doctor-name {
-    text-align: left;
-    /* Align name to the left */
-    font-weight: bold;
-    /* Optional: make the name stand out */
-}
-
-.doctor-bio {
-    text-align: left;
-    /* Align bio text to the left */
-    /* Additional bio styling can be added here */
-}
-/* General footer styles */
-footer {
-    background-color: #f8f8f8;
-    text-align: center;
+/* Modified styles for main content area */
+main {
     padding: 20px;
-    position: relative;
-    bottom: 0;
+    background-color: #3a506b;
+    /* Adjusted to match services section */
     width: 100%;
+    box-sizing: border-box;
+    align-items: flex-start;
 }
 
-/* Specific footer styles to match index.html */
+.review {
+    font-family: 'Comfortaa', sans-serif;
+    margin-bottom: 20px;
+    background-color: #3a506b;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    width: auto;
+}
+
+h2,
+p {
+    text-align: left;
+}
+
+/* Footer styles to match services section */
 .footer {
+    background-color: #2c3e50;
+    /* Dark background color */
+    color: white;
+    /* Text color */
+    font-family: 'Comfortaa', sans-serif;
+    /* Font family */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
-    background-color: #2c3e50;
-    /* The specified dark background color */
-    padding-top: 20px;
-    color: white;
-    font-family: 'Comfortaa', sans-serif;
-    /* Ensure the use of 'Comfortaa' font */
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 .footer-section {
     flex: 1;
-    padding: 20px;
-    text-align: center;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-/* Divider styles, to be hidden or shown based on the screen size */
-.footer-divider {
-    background-color: #9dbdc6;
-    /* Subtle color for divider */
-    width: 1px;
-    height: 60%;
-    margin: auto;
-    opacity: 0.6;
-}
-
-/* Responsive behavior to match index.html */
+/* Responsive adjustments for the footer */
 @media (max-width: 768px) {
-    .footer-divider {
-        height: 2px;
-        width: 80%;
-        margin: 10px auto;
-    }
-
     .footer {
         flex-direction: column;
+        padding: 20px;
     }
 
     .footer-section {
-        padding: 20px 0;
+        margin: 10px 0;
     }
+
+    .footer-section:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* Ensuring no whitespace below the footer */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    min-height: 0;
+    /* Fixes flexbox bug on some browsers */
 }
