@@ -1,11 +1,9 @@
-/* Adding some basic reset to remove any browser-specific paddings/margins */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Styling the header with the user's specifications */
 header {
     font-family: 'Comfortaa', sans-serif;
     background-color: #f0f0f0;
@@ -16,7 +14,6 @@ header {
     align-items: center;
 }
 
-/* Styling the navigation menu */
 nav {
     font-family: 'Comfortaa', sans-serif;
     display: flex;
@@ -51,7 +48,6 @@ nav li {
     position: relative;
 }
 
-/* Dropdown Menu Styles */
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -104,16 +100,13 @@ nav li:hover .dropdown-menu {
 .doctor-profile {
     display: flex;
     margin-bottom: 20px;
-    /* Space between each doctor profile */
 }
 
 .doctor-image {
     border: 2px solid #ffffff;
     box-shadow: 5px 5px 5px #bbbbbb;
     width: 150px;
-    /* Adjusted image width */
     margin-right: 10px;
-    /* Space between image and info */
 }
 
 .doctor-info {
@@ -123,17 +116,12 @@ nav li:hover .dropdown-menu {
 
 .doctor-name {
     text-align: left;
-    /* Align name to the left */
     font-weight: bold;
-    /* Optional: make the name stand out */
 }
 
 .doctor-bio {
     text-align: left;
-    /* Align bio text to the left */
-    /* Additional bio styling can be added here */
 }
-/* General footer styles */
 footer {
     background-color: #f8f8f8;
     text-align: center;
@@ -143,18 +131,15 @@ footer {
     width: 100%;
 }
 
-/* Specific footer styles to match index.html */
 .footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     background-color: #2c3e50;
-    /* The specified dark background color */
     padding-top: 20px;
     color: white;
     font-family: 'Comfortaa', sans-serif;
-    /* Ensure the use of 'Comfortaa' font */
 }
 
 .footer-section {
@@ -163,17 +148,14 @@ footer {
     text-align: center;
 }
 
-/* Divider styles, to be hidden or shown based on the screen size */
 .footer-divider {
     background-color: #9dbdc6;
-    /* Subtle color for divider */
     width: 1px;
     height: 60%;
     margin: auto;
     opacity: 0.6;
 }
 
-/* Responsive behavior to match index.html */
 @media (max-width: 768px) {
     .footer-divider {
         height: 2px;

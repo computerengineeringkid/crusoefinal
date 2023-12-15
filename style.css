@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Comfortaa', sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@ body {
     background: #2c3e50;
 }
 
-/* Video Container */
+
 .video-container {
     position: relative;
     width: 100%;
@@ -15,7 +15,6 @@ body {
     overflow: hidden;
 }
 
-/* Logo */
 .header-logo {
     position: absolute;
     top: 16px;
@@ -25,7 +24,6 @@ body {
     z-index: 2;
 }
 
-/* Video */
 video {
     width: 100%;
     height: 100%;
@@ -33,7 +31,7 @@ video {
     object-position: center;
 }
 
-/* Title */
+
 .video-title {
     position: absolute;
     top: 50%;
@@ -45,7 +43,7 @@ video {
     font-family: 'Comfortaa', sans-serif;
 }
 
-/* Navigation Bar Background */
+
 nav {
     background-color: #344a60;
     padding: 30px 0;
@@ -71,7 +69,7 @@ nav a {
     font-weight: 500;
 }
 
-/* Dropdown Menu Styles */
+
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -103,14 +101,14 @@ nav li:hover .dropdown-menu {
     background-color: #f1f1f1;
 }
 
-/* Main Content */
+
 main {
     padding: 20px;
     text-align: center;
 }
 
 
-/* Footer */
+
 footer {
     background-color: #f8f8f8;
     text-align: center;
@@ -120,7 +118,7 @@ footer {
     width: 100%;
 }
 
-/* Services Section */
+
 .services-section {
     display: flex;
     justify-content: space-around;
@@ -161,7 +159,6 @@ footer {
     font-weight: bold;
 }
 
-/* Trusted Care Section */
 .trusted-care-section {
     background-image: url('sphynx.jpg');
     background-size: cover;
@@ -178,36 +175,34 @@ footer {
     font-weight: bold;
 }
 
-/* Service Text Box */
 .service-text {
     background-color: white;
-    border: 1px solid #ddd; /* Light grey border */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Slight shadow */
-    border-radius: 5px; /* Beveled edges */
-    padding: 15px; /* Some padding inside the box */
+    border: 1px solid #ddd; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px; 
+    padding: 15px;
 }
 
-/* Read More Link */
 .read-more {
-    display: inline-block; /* Allows applying padding and margin effectively */
-    margin-top: 10px; /* Adjusts the space above the link */
-    padding: 5px 10px; /* Adds some space around the text */
-    border: 1px solid #007bff; /* Adds a border with a color */
-    border-radius: 4px; /* Slightly rounded corners for a modern look */
-    text-decoration: none; /* Removes the underline */
-    color: #007bff; /* Sets the text color */
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    display: inline-block; 
+    margin-top: 10px; 
+    padding: 5px 10px; 
+    border: 1px solid #007bff; 
+    border-radius: 4px; 
+    text-decoration: none; 
+    color: #007bff; 
+    transition: all 0.3s ease; 
 }
 
 .read-more:hover {
-    background-color: #007bff; /* Changes background on hover */
-    color: white; /* Changes text color on hover */
+    background-color: #007bff; 
+    color: white; 
 }
 
-/* New Footer Styles */
+
 .footer {
-         background-color: #489eb7; /* Dark green background */
-    color: white; /* White text color */
+         background-color: #489eb7; 
+    color: white; 
     padding: 20px 0;
     display: flex;
     justify-content: space-around;
@@ -217,65 +212,65 @@ footer {
 
 
 .footer-divider {
-    background-color: #9dbdc6; /* Subtle color for divider */
-    width: 1px; /* Thin style for divider */
-    height: 60%; /* Adjusting height to align with text */
-    margin: auto; /* Auto-margins for centering */
-    opacity: 0.6; /* Slightly transparent for a softer look */
+    background-color: #9dbdc6; 
+    width: 1px; 
+    height: 60%; 
+    margin: auto; 
+    opacity: 0.6; 
 }
 
 .footer-section {
-    padding: 20px 0; /* Top and bottom padding for spacing, no horizontal padding */
-    text-align: center; /* Center text alignment */
+    padding: 20px 0; 
+    text-align: center; 
 }
 
-/* Ensure the dividers align well with the content */
+
 @media (max-width: 768px) {
     .footer-divider {
-        height: 2px; /* Short divider for stacked layout */
-        width: 80%; /* Width adjustment for mobile view */
-        margin: 10px auto; /* Adjusting vertical space in mobile view */
+        height: 2px; 
+        width: 80%; 
+        margin: 10px auto; 
     }
 }
-/* Responsive adjustments for smaller screens */
+
 @media (max-width: 768px) {
     
 
     .footer-divider {
         width: 80%;
         height: 2px;
-        margin: 20px auto; /* Center the divider horizontally */
+        margin: 20px auto; 
     }
 }
 
 .footer-section {
-    flex: 1; /* This will ensure each section takes up equal space */
-    display: flex; /* Using flexbox to align items */
-    flex-direction: column; /* Align items in a column */
-    justify-content: center; /* Center items vertically */
-    align-items: center; /* Center items horizontally */
-    padding: 20px; /* Add some padding */
+    flex: 1; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
 }
 
-/* Since we have removed the button we need to make sure the dividers are centered correctly */
+
 .footer-divider {
-    align-self: stretch; /* This will make sure the divider stretches to fill the parent container */
+    align-self: stretch; 
 }
 
 .footer-divider {
-    background-color: #9dbdc6; /* Lighter shade for the divider color */
-    width: 1px; /* Thinner divider line */
-    height: 50%; /* Reducing the height to better align with the text */
-    margin: auto; /* Centering the divider within the space */
-    opacity: 0.5; /* Making the divider more subtle */
+    background-color: #9dbdc6; 
+    width: 1px; 
+    height: 50%; 
+    margin: auto; 
+    opacity: 0.5; 
 }
 .footer {
          display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #2c3e50; /* Presuming this is the footer background color, set it explicitly */
-    padding-top: 20px; /* Adding padding to the top to ensure background color goes to the top */
+    background-color: #2c3e50; 
+    padding-top: 20px; 
 }
 
 .footer-section {
@@ -289,7 +284,7 @@ footer {
 }
 
 .footer-divider {
-    background-color: rgb(255, 255, 255); /* Lighter and more subtle divider color */
+    background-color: rgb(255, 255, 255); 
     width: 1px;
     height: 50%;
     margin: auto;

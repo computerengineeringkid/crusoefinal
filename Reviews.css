@@ -1,11 +1,9 @@
-/* Adding some basic reset to remove any browser-specific paddings/margins */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Styling the header with the user's specifications */
 header {
     font-family: 'Comfortaa', sans-serif;
     background-color: #f0f0f0;
@@ -16,7 +14,6 @@ header {
     align-items: center;
 }
 
-/* Styling the navigation menu */
 nav {
     font-family: 'Comfortaa', sans-serif;
     display: flex;
@@ -51,7 +48,6 @@ nav li {
     position: relative;
 }
 
-/* Dropdown Menu Styles */
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -91,11 +87,9 @@ nav li:hover .dropdown-menu {
     border-radius: 5px;
 }
 
-/* Modified styles for main content area */
 main {
     padding: 20px;
     background-color: #3a506b;
-    /* Adjusted to match services section */
     width: 100%;
     box-sizing: border-box;
     align-items: flex-start;
@@ -117,14 +111,10 @@ p {
     text-align: left;
 }
 
-/* Footer styles to match services section */
 .footer {
     background-color: #2c3e50;
-    /* Dark background color */
     color: white;
-    /* Text color */
     font-family: 'Comfortaa', sans-serif;
-    /* Font family */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -145,7 +135,6 @@ p {
     justify-content: center;
 }
 
-/* Responsive adjustments for the footer */
 @media (max-width: 768px) {
     .footer {
         flex-direction: column;
@@ -161,7 +150,6 @@ p {
     }
 }
 
-/* Ensuring no whitespace below the footer */
 html,
 body {
     height: 100%;
@@ -175,5 +163,4 @@ body {
 main {
     flex: 1;
     min-height: 0;
-    /* Fixes flexbox bug on some browsers */
 }
